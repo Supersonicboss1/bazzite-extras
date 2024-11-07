@@ -29,7 +29,8 @@ modules:
       - klassy
       - rsms-inter-fonts
       - glib2-devel
-      - dbus-python
+      - python3-dbus
+      - dbus-python-devel
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
