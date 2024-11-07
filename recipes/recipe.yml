@@ -29,6 +29,7 @@ modules:
       - code
       - klassy
       - rsms-inter-fonts
+      - python-materialyoucolor
       - kde-material-you-colors
     remove:
       # example: removing firefox (in favor of the flatpak)
