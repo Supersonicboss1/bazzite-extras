@@ -18,7 +18,7 @@ modules:
   - type: rpm-ostree
     repos:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
-      - https://packages.microsoft.com/yumrepos/vscode/
+      - https://raw.githubusercontent.com/ublue-os/bluefin/fac714a6c43ec0161fa2e70c90aaa0f7bf4fbbec/system_files/dx/etc/yum.repos.d/vscode.repo
       - https://download.opensuse.org/repositories/home:paul4us/Fedora_Rawhide/home:paul4us.repo
     install:
       # - micro
